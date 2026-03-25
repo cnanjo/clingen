@@ -1,20 +1,111 @@
-# Compiled class file
-*.class
+##############################
+# macOS
+##############################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
 
-# Log file
+##############################
+# IntelliJ IDEA
+##############################
+.idea/
+*.iml
+*.iws
+out/
+
+# IntelliJ caches
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+
+##############################
+# Java / JVM
+##############################
+*.class
+*.log
+*.ctxt
+
+##############################
+# Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+##############################
+# Gradle
+##############################
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+##############################
+# Logs
+##############################
+logs/
 *.log
 
-# BlueJ files
-*.ctxt
+##############################
+# Temporary files
+##############################
+*.tmp
+*.swp
+*.swo
+*~
+
+##############################
+# Environment / secrets
+##############################
+.env
+.env.*
+*.keystore
+*.jks
+
+##############################
+# OS generated files
+##############################
+Thumbs.db
+
+##############################
+# Node (if using frontend like Angular)
+##############################
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+##############################
+# H2 Database (if used locally)
+##############################
+*.h2.db
+*.mv.db
+*.trace.db
+
+##############################
+# Spring Boot (if applicable)
+##############################
+*.jar
+*.war
+*.ear
+
+##############################
+# Coverage / testing
+##############################
+coverage/
+*.coverage
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
 # Package Files #
-*.jar
-*.war
 *.nar
-*.ear
 *.zip
 *.tar.gz
 *.rar
